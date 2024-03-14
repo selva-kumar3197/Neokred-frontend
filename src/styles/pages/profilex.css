@@ -1,0 +1,848 @@
+.profilex_section1 {
+    background-image: url("https://neokred.s3.ap-south-1.amazonaws.com/ProfileX/Mask+group+(3).svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 40px;
+    margin-bottom: 100px;
+}
+
+.profilex_section1_container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 5rem 2rem;
+}
+
+.logo_banner_section1 {
+    width: 35%;
+
+}
+
+.content_section1 {
+    width: 55%;
+
+}
+
+.content_section1_title {
+    color: #001777;
+    font-family: Raleway;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: start;
+    padding-bottom: 50px;
+}
+
+.content_section1_desc {
+    color: #000000;
+    font-family: "Roboto Flex";
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 50px;
+    text-align: start;
+
+}
+
+.image_mobile_section1 {
+    display: none;
+}
+
+/* section 2 */
+.profilex_section2 {
+    padding-bottom: 100px;
+    background-color: #FFFCF8;
+}
+
+.section2_title_profilex {
+    color: #001777;
+    font-family: Raleway;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+}
+
+.section2_desc {
+    color: #000000;
+    font-family: "Roboto Flex";
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.profilex_onbords_section2 {
+    width: 100%;
+}
+
+.onboards_customer_section2 {
+    position: relative;
+}
+
+.image_abs_right_section2_side {
+    position: absolute;
+    right: 0px;
+    top: -263px;
+}
+
+.onboards_sections_left_right {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    width: 80%;
+    margin: auto;
+}
+
+.onbaords_left_sections {
+    width: 50%;
+}
+
+.onbaords_right_sections {
+    width: 40%;
+    position: relative;
+}
+
+.active_onbaords {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    background: linear-gradient(6deg, #F45A23 -46.93%, #FDB02E 92.87%);
+    padding: 20px;
+    color: #FFFFFF;
+    font-family: Raleway;
+    font-size: 28px;
+    font-weight: 700;
+    border-radius: 25px;
+    margin-bottom: 19px;
+    gap: 20px;
+    width: 70%;
+    text-align: center;
+}
+
+.custome_onbaords {
+    background-color: #FFFFFF;
+    padding: 20px;
+    color: #000000;
+    font-family: Raleway;
+    font-size: 28px;
+    font-weight: 700;
+    border-radius: 25px;
+    margin-bottom: 19px;
+    width: 70%;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+
+}
+
+.onbaords_result_selcted {
+    background-color: #FDF3E1;
+    padding: 3rem;
+    border-radius: 25px;
+    margin-bottom: 15px;
+    position: relative;
+    width: 100%;
+}
+
+.onbaords_result_selcted_title {
+    color: #001777;
+    font-family: Raleway;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.answer_section_profilex_selected {
+    position: absolute;
+    bottom: -190px;
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+
+}
+
+.arrow_line_titles {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* section 3 */
+
+.profilex_section3 {
+    position: relative;
+    padding-bottom: 50px;
+    background-color: #FFFCF8;
+
+}
+
+.image_abs_right_side {
+    position: absolute;
+    right: 0;
+    top: -322px;
+}
+
+.perfection_title_section3 {
+    text-align: center;
+    color: #001777;
+    font-family: Raleway;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.perfection_span_section3 {
+    text-align: center;
+    color: #FF9700;
+    font-family: Raleway;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.container_box_profilex3 {
+    background-image: url("https://neokred.s3.ap-south-1.amazonaws.com/ProfileX/Rectangle.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1rem 12rem;
+    margin-top: 50px;
+    padding-bottom: 250px;
+}
+
+.profilex_container_box3_desc {
+    text-align: center;
+    color: #000000;
+    font-family: "Roboto Flex";
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+.profilex_section_innerbox3 {
+    background-image: url("https://neokred.s3.ap-south-1.amazonaws.com/ProfileX/Rectangle+6519.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1rem 12rem;
+    position: relative;
+    z-index: 0;
+    border-radius: 50px;
+    margin-top: -40px;
+}
+
+.image_abs_left_side {
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    z-index: 1
+}
+
+.image_ipad_center_side {
+    position: relative;
+    z-index: 3;
+    top: -137px;
+}
+
+.tab_profilex_inner_answers {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 3rem 6rem;
+}
+
+.inner_tab_profilex_inside {
+    display: flex;
+    justify-content: flex-start;
+    gap: 38px;
+    border-bottom: 0.5px solid #000000;
+    align-items: center;
+    height: 100px;
+}
+
+.title_profilex_inner_tab {
+    color: #000000;
+    font-family: Raleway;
+    font-size: 28px;
+    font-weight: 700;
+    width: 47%;
+
+}
+
+.desc_profilex_inner_tab {
+    color: #000000;
+    font-family: "Roboto Flex";
+    font-size: 17px;
+    font-weight: 500;
+    width: 53%;
+
+}
+
+/* section 5 */
+
+.profilex_section5 {
+    background-image: url("https://neokred.s3.ap-south-1.amazonaws.com/ProfileX/Rectangle+6467.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+    padding: 2rem;
+}
+
+.profilex_left_section {
+    width: 65%;
+}
+
+.profilex_right_section {
+    width: 31%;
+    position: relative;
+
+}
+
+.internal_profilex_section {
+    position: absolute;
+    bottom: 48px;
+    left: 52px;
+}
+
+
+.internal_profilex_section_desc {
+    color: #FFFFFF;
+    font-family: Raleway;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.internal_profilex_section_title {
+    color: #FFFFFF;
+    font-family: Raleway;
+    font-size: 90px;
+    font-weight: 700;
+    margin: 0;
+}
+
+/* section accordian */
+.gold_fund_back_section {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+    gap: 10px;
+    padding: 15px;
+    padding-left: 5px;
+    border-bottom: 1px solid #E4E4E4;
+}
+
+.accordian_profilex_section {
+    margin-bottom: 250px;
+    background-image: url("https://neokred.s3.ap-south-1.amazonaws.com/ProfileX/Rectangle+6185.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 60px;
+    padding: 5rem;
+}
+
+.questions_answers_box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #FFFFFF;
+    margin-bottom: 30px;
+    padding: 15px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.question_box {
+    color: #001777;
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.answers_show {
+    color: #000000;
+    font-size: 18px;
+    font-family: "Roboto Flex";
+    font-weight: 500;
+    border-color: #EAB54B;
+    border-width: 0.5px;
+    margin-bottom: 15px;
+    padding: 10px;
+    margin-top: -10px;
+}
+
+.image_up_down {
+    height: 15px;
+    width: 28px;
+}
+
+.title_accordian_profilex {
+    color: #001777;
+    font-size: 40px;
+    font-family: Raleway;
+    font-weight: 700;
+    padding-bottom: 50px;
+}
+
+.onbaords_left_sections_mobile {
+    display: none;
+}
+
+.profilex_section3_mobile {
+    display: none
+}
+
+
+
+/* DATA I  PAGE CSS */
+.accordian_general_developer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    margin-bottom: 50px;
+    border-radius: 25px;
+}
+
+.active_selected_tab {
+    padding: 20px;
+    color: #FFFFFF;
+    font-size: 32px;
+    font-family: Raleway;
+    font-weight: 700;
+    background-color: #001777;
+    border-radius: 25px;
+    cursor: pointer;
+
+}
+
+.custom_selected_tab {
+    padding: 20px;
+    color: #001777;
+    font-size: 32px;
+    font-family: Raleway;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.mobile_version_faq {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .profilex_section1 {
+        background-image: url("https://neokred.s3.ap-south-1.amazonaws.com/ProfileX/Banner.svg");
+        border-radius: 25px;
+        position: relative;
+    }
+
+    .section2_title_profilex {
+        font-size: 24px;
+        padding-top: 10px;
+        width: 80%;
+        margin: auto;
+    }
+
+
+    .profilex_section1_container {
+        padding: 1rem;
+        margin-bottom: 100px;
+    }
+
+    .logo_banner_section1 {
+        display: none;
+
+    }
+
+    .content_section1 {
+        width: 100%;
+
+    }
+
+    .content_section1_title {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .content_section1_desc {
+        font-size: 16px;
+        text-align: center;
+
+    }
+
+    .image_mobile_section1 {
+        position: absolute;
+        bottom: -127px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    /* section 2 */
+    .section2_title {
+        font-size: 24px;
+        margin-top: 25px;
+        margin-bottom: 20px;
+        text-align: center;
+        width: 100%;
+
+    }
+
+    .section2_desc {
+        font-size: 15px;
+        margin: 0;
+        margin-top: 20px;
+        text-align: center;
+        width: 100%;
+
+    }
+
+    .onbaords_left_sections {
+        display: none;
+    }
+
+    .onbaords_right_sections {
+        display: none;
+    }
+
+    /* accordian */
+    .accordian_profilex_section {
+        padding: 4rem 1rem;
+        margin-bottom: 80px;
+        border-radius: 25px;
+    }
+
+    .questions_answers_box {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 90%;
+        margin: auto;
+        background-color: #FFFFFF;
+        margin-bottom: 30px;
+        padding: 10px;
+        border-radius: 25px;
+        cursor: pointer;
+    }
+
+    .question_box {
+        font-size: 16px;
+    }
+
+    .answers_show {
+        font-size: 16px;
+        margin-bottom: 15px;
+        padding: 0px 25px 0px 25px;
+    }
+
+    .title_accordian_profilex {
+        font-size: 24px;
+    }
+
+    .image_up_down {
+        height: 5px;
+        width: 10px;
+    }
+
+    .image_abs_right_section2_side {
+        display: none;
+    }
+
+    .profilex_section3 {
+        display: none;
+    }
+
+
+    .profilex_section3_mobile {
+        position: relative;
+        display: block;
+    }
+
+    .image_abs_right_side_mobile {
+        position: absolute;
+        right: 0;
+        top: -132px;
+        z-index: 1;
+    }
+
+    .image_abs_right_side_mobile_data_i {
+        position: absolute;
+        right: 0;
+        top: -255px;
+        z-index: 1;
+    }
+
+    .image_abs_left_side_mobile {
+        position: absolute;
+        right: 0;
+        right: 0;
+        z-index: 1;
+    }
+
+    .image_abs_left_side {
+        position: absolute;
+        right: 0;
+        right: 0;
+        z-index: 1;
+    }
+
+    .profilex_section_innerbox3_mobile {
+        background-image: url(https://neokred.s3.ap-south-1.amazonaws.com/ProfileX/Rectangle+6519.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 1rem;
+        position: relative;
+        z-index: 0;
+        border-radius: 25px;
+        margin-top: 120px;
+    }
+
+    .data_i_section_innerbox3_mobile {
+        background-image: url(https://neokred.s3.ap-south-1.amazonaws.com/ProfileX/Rectangle+6519.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 1rem;
+        position: relative;
+        z-index: 0;
+        border-radius: 25px;
+        margin-top: -54px;
+    }
+
+    .image_ipad_center_side {
+        position: relative;
+        z-index: 3;
+        align-self: center;
+        top: -88px;
+    }
+
+    .perfection_datai_clss {
+        background-image: url("https://neokred.s3.ap-south-1.amazonaws.com/ProfileX/Rectangle.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 1rem;
+        padding-bottom: 200px;
+    }
+
+
+    .perfection_title_section3 {
+        text-align: center;
+        color: #001777;
+        font-family: Raleway;
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    .perfection_desc_section3 {
+        text-align: center;
+        color: #000000;
+        font-family: Raleway;
+        font-size: 16px;
+        font-weight: 700;
+        margin-top: 25px;
+    }
+
+    .perfection_span_section3 {
+        text-align: center;
+        color: #FF9700;
+        font-family: Raleway;
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    .internal_profilex_section {
+        position: absolute;
+        bottom: 48px;
+        left: 25px;
+    }
+
+    .internal_profilex_section_desc {
+        color: #FFFFFF;
+        font-family: Raleway;
+        font-size: 16px;
+        font-weight: 700;
+        margin: 0;
+    }
+
+    .internal_profilex_section_title {
+        color: #FFFFFF;
+        font-family: Raleway;
+        font-size: 28px;
+        font-weight: 700;
+        margin: 0;
+    }
+
+
+    /* accordian */
+    .onbaords_left_sections_mobile {
+        display: block;
+        padding: 1rem;
+    }
+
+    .active_onbaords_mobile {
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+        background: linear-gradient(6deg, #F45A23 -46.93%, #FDB02E 92.87%);
+        padding: 20px;
+        color: #FFFFFF;
+        font-family: Raleway;
+        font-size: 18px;
+        font-weight: 700;
+        border-radius: 15px;
+        margin-bottom: 19px;
+        gap: 20px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .custome_onbaords_mobile {
+        background-color: #FFFFFF;
+        padding: 20px;
+        color: #000000;
+        font-family: Raleway;
+        font-size: 18px;
+        font-weight: 700;
+        border-radius: 15px;
+        margin-bottom: 19px;
+        gap: 20px;
+        text-align: center;
+        margin-top: 20px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+
+
+    }
+
+    .onbaords_result_selcted_mobile {
+        background-color: #FDF3E1;
+        padding: 1rem;
+        border-radius: 25px;
+        position: relative;
+        text-align: center;
+        margin-bottom: 100px;
+        padding-bottom: 60px;
+    }
+
+    .onbaords_result_selcted_title_mobile {
+        color: #001777;
+        font-family: Raleway;
+        font-size: 16px;
+        font-weight: 700;
+        text-align: center;
+        width: 70%;
+        margin: auto;
+
+    }
+
+    .answer_section_profilex_selected_mobile {
+        position: absolute;
+        bottom: -90px;
+        width: 95%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+    }
+
+    /* acordian profilex_collectBot */
+    .accordian_profilex_collectbot {
+        padding: 1rem
+    }
+
+    .questions_answers_box_mobile {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 90%;
+        padding: 15px;
+        cursor: pointer;
+        border-bottom: 1px solid #000000;
+    }
+
+    .question_box_mobile {
+        color: #000000;
+        font-family: Raleway;
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .answers_show_mobile {
+        color: #000000;
+        font-size: 16px;
+        font-family: "Roboto Flex";
+        font-weight: 500;
+        border-width: 0.5px;
+        margin-bottom: 15px;
+        padding: 10px;
+    }
+
+    .image_up_down_mobile {
+        height: 12px;
+        width: 12px;
+    }
+
+    .collect_boT-profilex {
+        color: #001777;
+        font-size: 24px;
+        font-family: Raleway;
+        font-weight: 700;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+    .collect_boT_span {
+        color: #FF9700;
+        font-size: 24px;
+        font-family: "Roboto Flex";
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .accordian_general_developer {
+        display: none;
+    }
+
+    .mobile_version_faq {
+        display: block;
+        width: 90%;
+        margin: auto;
+        margin-bottom: 50px;
+        padding: 15px;
+        border-radius: 25px;
+        background-color: #001777;
+        color: #FFFFFF;
+        font-size: 24px;
+        font-weight: 700;
+        font-family: Raleway;
+        border: none;
+    }
+
+    .options_mobile_version_fav {
+        color: #000000;
+        background-color: white;
+        padding: 15px;
+        border-radius: 25px !important;
+        font-size: 24px;
+        font-weight: 700;
+        font-family: Raleway;
+        border: none;
+    }
+
+}

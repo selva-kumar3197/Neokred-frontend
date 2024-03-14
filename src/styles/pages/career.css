@@ -1,0 +1,537 @@
+ /* section 1 */
+
+ .career_us_page {
+     background-color: rgba(255, 252, 248, 1);
+ }
+
+ .career_section1 {
+     position: relative;
+     z-index: 1;
+     padding: 1rem 5rem;
+
+ }
+
+ .career_section1_bg {
+     background-image: url("https://neokred.s3.ap-south-1.amazonaws.com/career/Mask+group+(10).svg");
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     padding: 7rem 5rem 0;
+     border-radius: 40px;
+ }
+
+
+ .career_section_title_button .banner_heading_career {
+     font-size: 60px;
+     font-weight: 700;
+     font-family: Raleway;
+     text-align: start;
+     color: #FFFFFF;
+ }
+
+
+
+ /* section2 */
+ .career_sections {
+     padding: 1rem 5rem;
+     background-color: #FFFCF8;
+ }
+
+ .life_title_career {
+     font-family: Raleway;
+     font-size: 40px;
+     font-weight: 700;
+     text-align: center;
+     color: rgba(0, 23, 119, 1);
+     padding-top: 50px;
+     padding-bottom: 110px;
+ }
+
+ .sliders_section1 {
+     display: flex;
+     justify-content: space-between;
+     width: 100%;
+     gap: 25px;
+     position: relative;
+ }
+
+ .alider_section1_one {
+     height: 514px;
+ }
+
+ .alider_section1_two {
+     width: 62%;
+ }
+
+ .sliders_section1 img {
+     width: 100%;
+ }
+
+ .arrows_click_next_slider {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 20px;
+     position: absolute;
+     bottom: 54px;
+     right: 54px;
+ }
+
+
+
+ .sliders_section2 {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-top: 50px;
+ }
+
+ .alider_section2_one {
+     width: 65%;
+     position: relative;
+
+ }
+
+ .alider_section2_two {
+     width: 30%;
+     background-color: rgba(230, 242, 251, 1);
+     height: 514px;
+     border-radius: 25px;
+     padding: 13px;
+ }
+
+
+ .we_are_bold_title {
+     font-family: Raleway;
+     font-size: 72px;
+     font-weight: 700;
+     color: rgba(0, 23, 119, 1);
+     margin-top: 100px;
+ }
+
+ .we_are_bold_desc {
+     font-family: "Roboto Flex";
+     font-size: 24px;
+     font-weight: 400;
+
+ }
+
+ .sliders_section3 {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-top: 50px;
+     gap: 20px;
+ }
+
+
+ .alider_section3_two {
+     width: 73%;
+ }
+
+ .we_are_title_career {
+     font-family: Raleway;
+     font-size: 40px;
+     font-weight: 700;
+     color: #001177;
+     text-align: center;
+     margin-top: 80px;
+     margin-bottom: 50px;
+
+ }
+
+ .we_are_hiring_desc {
+     font-family: "Roboto Flex";
+     font-size: 24px;
+     font-weight: 500;
+     text-align: center;
+     width: 70%;
+     margin: auto;
+     margin-bottom: 100px;
+ }
+
+ .jobs_aresa_section {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     gap: 20px;
+     width: 90%;
+     margin: auto;
+     margin-bottom: 15px;
+     border-radius: 50px;
+     padding: 10px 30px;
+     background: rgba(230, 242, 251, 1);
+
+ }
+
+ .title_items_jobs_areas {
+     font-family: Raleway;
+     font-size: 24px;
+     font-weight: 500;
+     color: #001177;
+ }
+
+ .explore_button_career {
+     padding: 10px 20px;
+     background-color: #001177;
+     color: #FFFFFF;
+     font-family: Raleway;
+     font-size: 24px;
+     font-weight: 500;
+     border-radius: 50px;
+     cursor: pointer;
+ }
+
+ .hiring_process_box {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 50px;
+     margin-bottom: 180px;
+     position: relative;
+ }
+
+ .bg_abs_image_filters {
+     position: absolute;
+     right: 0;
+     top: -800px;
+
+ }
+
+ .inner_wrap_hiring_process_box {
+     padding: 10px;
+     border-radius: 50px;
+     border: 0.5px solid #000000;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 50px;
+     font-family: Raleway;
+     font-size: 20px;
+     font-weight: 400;
+
+ }
+
+ .inner_wrap_hiring_process_box option {
+     background-color: #fff;
+     color: #000000;
+     font-family: Raleway;
+     font-size: 20px;
+     font-weight: 400;
+
+ }
+
+ .filter_remove {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 10px;
+ }
+
+ .last_section_jobs_filter {
+     padding-bottom: 150px;
+ }
+ .modal-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #000;
+    font-weight: 500;
+    font-size: 24px;
+    font-family: Raleway;
+ }
+ .modal-head img{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+ }
+ .modal-field-name{
+    color: #000;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: Raleway;
+ }
+ .modal-input{
+    width: 25vw;
+    font-family: Raleway;
+    outline: none;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    color: #212529;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 0.375rem 0.75rem;
+ }
+ .modal-input2{
+    width: 25vw;
+    font-family: Raleway;
+    outline: none;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    color: #212529;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 0.375rem 0.75rem;
+    height: 8vh;
+ }
+ .modal-button{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+ }
+ .clear-button{
+    background-color: #6c757d;
+    border: 1px solid #6c757d;
+    color: #fff;
+    border-radius: 12px;
+    font-family: Raleway;
+    padding: 0.375rem 0.75rem;
+    font-weight: 400;
+    font-size: 1rem;
+    cursor: pointer;
+ }
+ .submit-button{
+    border: 1px solid #0d6efd;
+    background-color: #0d6efd;
+    color: #fff;
+    border-radius: 12px;
+    font-family: Raleway;
+    padding: 0.375rem 0.75rem;
+    font-weight: 400;
+    font-size: 1rem;
+    cursor: pointer;
+ }
+
+
+
+
+
+ @media screen and (max-width: 768px) {
+
+
+     .career_us_page {
+         background-color: rgba(255, 252, 248, 1);
+     }
+
+     .career_section1 {
+         position: relative;
+         z-index: 1;
+         padding: 1rem;
+
+     }
+
+     .career_section1_bg {
+         background-image: url("https://neokred.s3.ap-south-1.amazonaws.com/career/Mask+group+(11).svg");
+         padding: 1rem;
+         border-radius: 25px;
+     }
+
+     .career_section_title_button {
+         padding-top: 220px;
+     }
+
+     .career_section_title_button .banner_heading_career {
+         font-size: 40px;
+         text-align: center;
+     }
+
+
+
+     /* section2 */
+     .career_sections {
+         padding: 1rem;
+         background-color: #FFFCF8;
+     }
+
+     .life_title_career {
+         font-size: 24px;
+         padding-top: 10px;
+         padding-bottom: 50px;
+         width: 70%;
+         margin: auto;
+         margin-top: 50px;
+     }
+
+     .sliders_section1 {
+         display: grid;
+         grid-template-columns: repeat(1, 1fr);
+         width: 100%;
+         gap: 0;
+         position: relative;
+     }
+
+     .alider_section1_one {
+         width: 100%;
+     }
+
+     .alider_section1_two {
+         width: 100%;
+         margin-top: -100px;
+     }
+
+
+     /* section3 */
+     .arrows_click_next_slider {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         gap: 20px;
+         position: absolute;
+         bottom: 13px;
+         right: 18px;
+     }
+
+
+
+     .sliders_section2 {
+         display: grid;
+         grid-template-columns: repeat(1, 1fr);
+         width: 100%;
+         margin-top: 50px;
+     }
+
+     .alider_section2_one {
+         width: 100%;
+         position: relative;
+
+     }
+
+     .alider_section2_two {
+         width: 100%;
+         background-color: rgba(230, 242, 251, 1);
+         border-radius: 25px;
+         padding: 5px;
+         height: 400px;
+         margin-top: 20px;
+     }
+
+
+     .we_are_bold_title {
+         font-family: Raleway;
+         font-size: 54px;
+         font-weight: 700;
+         color: rgba(0, 23, 119, 1);
+         margin-top: 100px;
+     }
+
+     .we_are_bold_desc {
+         font-family: "Roboto Flex";
+         font-size: 16px;
+         font-weight: 400;
+
+     }
+
+     .sliders_section3 {
+         display: grid;
+         grid-template-columns: repeat(1, 1fr);
+         width: 100%;
+         margin-top: 50px;
+     }
+
+     .alider_section3_two {
+         width: 100%;
+     }
+
+     /* section hiring */
+
+     .we_are_title_career {
+         font-size: 24px;
+         margin-top: 80px;
+         margin-bottom: 50px;
+
+     }
+
+     .we_are_hiring_desc {
+         font-size: 16px;
+         width: 100%;
+         margin-bottom: 5px;
+     }
+
+     .jobs_aresa_section {
+         display: flex;
+         justify-content: space-between;
+         width: 90%;
+         margin: auto;
+         margin-bottom: 15px;
+         border-radius: 25px;
+         padding: 10px;
+         background: rgba(230, 242, 251, 1);
+
+     }
+
+     .title_items_jobs_areas {
+         font-size: 16px;
+         color: #001177;
+     }
+
+     .explore_button_career {
+         padding: 5px 40px;
+         background-color: #001177;
+         color: #FFFFFF;
+         font-family: Raleway;
+         font-size: 9px;
+         font-weight: 500;
+         border-radius: 50px;
+         cursor: pointer;
+     }
+
+     .hiring_process_box {
+         display: grid;
+         grid-template-columns: repeat(1, 1fr);
+         width: 90%;
+         margin: auto;
+         margin-bottom: 40px;
+         position: relative;
+     }
+
+     .bg_abs_image_filters {
+         display: none;
+
+     }
+
+     .inner_wrap_hiring_process_box {
+         padding: 10px;
+         border-radius: 50px;
+         border: 0.5px solid #000000;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         gap: 50px;
+         font-family: Raleway;
+         font-size: 20px;
+         font-weight: 400;
+
+     }
+
+     .inner_wrap_hiring_process_box option {
+         background-color: #fff;
+         color: #000000;
+         font-family: Raleway;
+         font-size: 20px;
+         font-weight: 400;
+
+     }
+
+     .filter_remove {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         gap: 10px;
+     }
+
+     .last_section_jobs_filter {
+         padding-bottom: 50px;
+     }
+     .modal-input{
+        width: 70vw;
+     }
+     .modal-input2{
+        width: 70vw;
+     }
+
+
+
+ }

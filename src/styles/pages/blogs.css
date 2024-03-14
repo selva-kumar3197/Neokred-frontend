@@ -1,0 +1,503 @@
+.blogs_section {
+    padding: 1rem 5rem;
+    background-color: #FFFCF8;
+}
+
+.blogs_section1 {
+    background-image: url("https://neokred.s3.ap-south-1.amazonaws.com/blogs/Mask+group+(12).svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5rem;
+    border-radius: 25px;
+}
+
+.blogs_section1_div {}
+
+.blogs_section_main_title {
+    font-family: Raleway;
+    font-size: 60px;
+    font-weight: 700;
+    color: #FFFFFF;
+    width: 43vw;
+}
+
+.written_by_section1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.inner_desc_written_by {
+    font-family: "Roboto Flex";
+    font-size: 18px;
+    font-weight: 500;
+    color: #FFFFFF;
+
+}
+
+/* ection2 */
+.blogs_section2 {
+    margin-top: 90px;
+    height: 600px;
+    padding-right: 1rem;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.blogs_section2::-webkit-scrollbar {
+    width: 4px;
+}
+
+
+.blogs_section2::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(197, 197, 197);
+    border-radius: 10px;
+}
+
+
+.blogs_section2::-webkit-scrollbar-thumb {
+    background: rgba(133, 133, 133, 1);
+}
+
+.lorem_ipsum_heading2 {
+    font-family: "Roboto Flex";
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    padding: 0;
+}
+.lorem_ipsum_heading3{
+    font-family: "Roboto Flex";
+    font-size: 26px;
+    font-weight: 600;
+    color: black;
+}
+.lorem_ipsum_heading4{
+    font-family: "Roboto Flex";
+    font-size: 32px;
+    font-weight: 600;
+    color: black;
+}
+.lorem_ipsum_heading5{
+    font-family: "Roboto Flex";
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+}
+.lorem_ipsum_heading6 li{
+    font-family: "Roboto Flex";
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+}
+
+.mob_dis_none {
+    display: none;
+}
+
+/* section3 */
+.social_medias_div {
+    border-bottom: 0.67px solid rgba(251, 156, 44, 1);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+    padding-top: 100px;
+}
+
+.icons_social_inner {
+    padding-bottom: 20px;
+}
+
+
+/* section4 */
+.blogs_section4 {
+    padding-top: 100px;
+}
+
+.leave_comment {
+    font-family: Raleway;
+    font-size: 40px;
+    font-weight: 700;
+    color: rgba(0, 23, 119, 1);
+    margin-bottom: 35px;
+}
+
+.form_name_email {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+    width: 100%;
+    padding-top: 50px;
+}
+
+.form_name_email .name_tag_input {
+    width: 100%;
+    border-bottom: 0.67px solid rgba(0, 0, 0, 1);
+    background-color: #FFFCF8;
+}
+
+.form_name_email .name_tag_input input {
+    width: 70%;
+    padding: 20px;
+    border: none;
+    outline: none;
+    background-color: #FFFCF8;
+
+}
+
+.blogs_section4 .name_tag_input {
+    width: 100%;
+    border-bottom: 0.67px solid rgba(0, 0, 0, 1);
+    background-color: #FFFCF8;
+    margin-bottom: 20px;
+}
+
+.blogs_section4 textarea {
+    width: 70%;
+    padding: 20px;
+    border: none;
+    outline: none;
+    background-color: #FFFCF8;
+
+}
+
+
+/* section5 */
+.blogs_section5 {
+    margin-top: 180px;
+    height: 500px;
+    padding-right: 1rem;
+    overflow-y: scroll;
+}
+
+.blogs_section5::-webkit-scrollbar {
+    width: 4px;
+}
+
+
+.blogs_section5::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(197, 197, 197);
+    border-radius: 10px;
+}
+
+
+.blogs_section5::-webkit-scrollbar-thumb {
+    background: rgba(133, 133, 133, 1);
+}
+
+
+.blogs_comments_section {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.blogs_comments_section .blogs_section_name {
+    font-family: "Roboto Flex";
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.blogs_comments_section .blogs_section_time {
+    font-family: "Roboto Flex";
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(133, 133, 133, 1);
+
+}
+
+.lorem_desc_blogs_section {
+    font-family: "Roboto Flex";
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+/* section6 */
+.blogs_section6 {
+    margin-top: 120px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.carousel-container {
+    position: relative;
+    width: 100%;
+    margin: auto;
+}
+
+.button_container_section {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 24px;
+}
+.next{
+    cursor: pointer;
+}
+.prev{
+    cursor: pointer;
+}
+
+/* .prev,
+.next {
+    position: absolute;
+    top: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+} */
+
+/* .dots {
+    position: absolute;
+    top: 10px;
+    right: 50px;
+
+} */
+
+.dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #bbb;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.dot.active {
+    background: rgba(255, 75, 1, 1);
+
+}
+
+
+.carousel {
+    overflow: hidden;
+}
+
+.carousel-images {
+    display: flex;
+    gap: 40px;
+
+}
+
+.slide {
+    width: calc(100% / 3);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
+
+
+.last_section_7_form {
+    position: relative;
+
+}
+
+/* ection7 */
+.blogs_section7 {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 150px;
+    padding: 1rem 5rem;
+
+}
+
+.blogs_section7_left {
+    width: 35%;
+}
+
+.blogs_section7_right {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.blogs_section7_right .blogs_div_section7 {
+    width: 100%;
+    border-bottom: 0.67px solid rgba(0, 0, 0, 1);
+    background-color: #FFFCF8;
+    margin-bottom: 20px;
+}
+
+.blogs_section7_right .input_section7 {
+    width: 70%;
+    padding: 20px;
+    border: none;
+    outline: none;
+    background-color: #FFFCF8;
+
+}
+
+
+.abs_last_section {
+    position: absolute;
+    right: 0;
+    top: -626%;
+}
+
+
+.link-tag{
+    color: #000000 !important;
+}
+.link-tag2{
+    text-decoration: none !important;
+}
+.slide-title{
+    color: #001777;
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 28.8px */
+}
+.slide-desc{
+    color: #000;
+    font-family: "Roboto Flex";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 23.4px */
+    width: 25vw;
+}
+.founder-img{
+    width: 85px;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .blogs_section {
+        padding: 1rem;
+    }
+
+    /* section1 */
+
+    .blogs_section1 {
+        background-image: url("https://neokred.s3.ap-south-1.amazonaws.com/blogs/Mask+group+(17).svg");
+        padding: 1rem;
+    }
+
+
+    .blogs_section_main_title {
+        font-size: 35px;
+        text-align: center;
+        width: unset;
+    }
+
+    .mob_dis_none {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .written_by_section1 {
+        display: none;
+    }
+
+
+    /* section2 */
+    .blogs_section2 {
+        margin-top: 50px;
+        padding: 0;
+        height: 100%;
+        overflow: visible;
+    }
+
+    .lorem_ipsum_heading2 {
+        font-size: 15px;
+        padding: 0px;
+
+    }
+
+    /* section sicial media */
+
+    .social_medias_div {
+        gap: 20px;
+        padding-top: 40px;
+    }
+
+    .icons_social_inner {
+        padding-bottom: 10px;
+    }
+
+    /* section4 */
+    .blogs_section4 {
+        padding-top: 80px;
+        text-align: center;
+    }
+
+    .leave_comment {
+        font-size: 24px;
+        margin-bottom: 35px;
+    }
+
+    .form_name_email {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+        width: 100%;
+    }
+
+    .form_name_email .name_tag_input {
+        width: 100%;
+    }
+
+    .form_name_email .name_tag_input input {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .blogs_section4 .name_tag_input {
+        width: 100%;
+        margin-bottom: 0px;
+    }
+
+    .blogs_section4 textarea {
+        width: 100%;
+        padding: 10px;
+        margin-top: 15px;
+    }
+
+    .blogs_section4 .header_nav_button {
+        display: none;
+    }
+
+
+}

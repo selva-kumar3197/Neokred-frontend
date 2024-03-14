@@ -1,0 +1,60 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.wrapper {
+    padding: 15px;
+    background: #E6F2FB;
+    font-family: 'Raleway';
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.ai {
+    background-color: #aacae2;
+    border-radius: 10px;
+}
+
+.prefix-content{
+    font-weight: 800;
+}
+.chat{
+    display: flex;    
+}
+.message{
+    padding-left: 15px;
+}
+.job-apply{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    transition: all 0.5s ease; /* Transition all properties over 2 seconds with ease timing function */
+
+}
+.job-apply:hover{
+    background-color: #aacae2;
+}
+.explore_button_career{
+    z-index: 1;    
+    border: none;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .message{
+        font-size: 12px;
+        padding-left: 0;
+    }
+}

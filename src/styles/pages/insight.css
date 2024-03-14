@@ -1,0 +1,286 @@
+.insight-main {
+  max-width: 90%;
+  margin: 0 auto;
+}
+.insight_section1 {
+  position: relative;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.insight_section_title {
+  position: absolute;
+  bottom: 8px;
+  left: 10%;
+}
+.insight_section1 img {
+  width: 100%;
+}
+.banner_heading_insight {
+  color: #001777;
+  font-family: Raleway;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+.insight-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2rem 0;
+}
+.insight-card-div {
+  position: relative;
+  border-radius: 23.25px;
+}
+.insight-card-details {
+  position: absolute;
+  left: 39px;
+  top: 12px;
+}
+.insight-title {
+  color: #fff;
+  font-family: Raleway;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  width: 293px;
+}
+.insight-title2{
+  color: #fff;
+  font-family: Raleway;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  width: 293px;
+}
+.insight-desc {
+  color: #fff;
+  font-family: "Roboto Flex";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  width: 275px;
+}
+.insight-date {
+  color: #858585;
+  font-family: "Roboto Flex";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 29.45px;
+}
+.insight-date2 {
+  color: #fff;
+  font-family: "Roboto Flex";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 29.898px;
+}
+.insight-updates {
+  max-width: 72%;
+  margin: 100px auto 0 auto;
+}
+.insight-head {
+  color: #001777;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+}
+.insight-subhead {
+  color: #000;
+  text-align: center;
+  font-family: "Roboto Flex";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+}
+.insight-update-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30rem;
+}
+.insight-update-left {
+  position: relative;
+}
+.insight-update-left-content {
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+}
+.insight-update-left-content p {
+  text-align: left;
+  width: 320px;
+}
+.insight-update-right {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.insight-update-right::-webkit-scrollbar {
+  width: 3.147px;
+  background: #efefef;
+  direction: rtl;
+}
+.insight-update-right::-webkit-scrollbar-thumb {
+  background: #858585;
+  border-radius: 10px;
+}
+.insight-update-right::-webkit-scrollbar-track {
+    margin-left: 10px;
+  }
+  
+.insight-updatecard-div {
+  border-radius: 23.604px;
+  background: #eee0cb;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 20px;
+  gap: 50px;
+  width: 520px;
+  height: 220px;
+}
+.insight-update-card-div-right {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.insight-update-title {
+  color: #001777;
+  font-family: Raleway;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  margin: 0 !important;
+  width: 16vw;
+}
+.insight-update-desc {
+  color: #000;
+  font-family: "Roboto Flex";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  width: 16vw;
+  margin: 6px 0 !important;
+}
+.insight-update-date {
+  color: #858585;
+  font-family: "Roboto Flex";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 29.898px;
+  margin: 0 !important;
+}
+.insight-curve{
+    position: absolute;
+    right: -5%;
+    top: 100%;
+}
+.insight-update-main{
+    position: relative;
+}
+.banner-mobile{
+  display: none;
+}
+
+
+@media screen and (max-width: 768px) {
+  .banner-desktop{
+    display: none;
+  }
+  .banner-mobile{
+    display: block;
+  }
+  .insight_section_title{
+    top: 12px;
+  }
+  .banner_heading_insight{
+    font-size: 40px;
+    width: 20px;
+  }
+  .insight-card{
+    flex-direction: column;
+  }
+  .insight-card-details{
+    left: 18px;
+  }
+  .insight-title{
+    font-size: 22px;
+    width: 68vw;
+  }
+  .insight-desc{
+    font-size: 16px;
+    width: 80vw;
+  }
+  .insight-date{
+    font-size: 8px;
+  }
+  .insight-updates{
+    margin: 80px auto 0 auto;
+    max-width: 100%;
+  }
+  .insight-subhead{
+    font-size: 16px;
+  }
+  .insight-update-div{
+    flex-direction: column;
+    gap: 18px;
+    margin-bottom: 10rem;
+  }
+  .insight-update-left-content p{
+    width: 45vw;
+  }
+  .insight-title2{
+    font-size: 16px;
+  } 
+  .insight-date2{
+    font-size: 8px;
+  }
+  .insight-updatecard-div{
+    height: 40vh;
+    gap: unset;
+    padding: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 12px;
+    border-radius: 14px;
+    width: 39vh;
+  }
+  .insight-update-title{
+    font-size: 16px;
+    width: unset;
+  }
+  .insight-update-desc{
+    font-size: 10px;
+    width: unset;
+  }
+  .insight-update-date{
+    font-size: 8px;
+  }
+  .insight-update-right{
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+  .insight-update-right::-webkit-scrollbar {
+    width: 1px;
+  }
+  .insight-curve{
+    top: 92%;
+  }
+  .insight-cardimg{
+    width: 100%;
+  }
+}

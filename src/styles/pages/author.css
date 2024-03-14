@@ -1,0 +1,151 @@
+.authormain_div{
+    margin:1rem 5rem 10rem 5rem;
+    position: relative;
+
+}
+.maincontentdiv{
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+    align-items: flex-start;
+}
+.authorheading{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: -30px;
+
+}
+.authorimg{
+    display: block;
+}
+.authorimg_mob{
+    display: none;
+
+}
+.authorsecondheading img{
+width:32px;
+height:32px;
+}
+.authorheading_text{
+    color: #001777;
+font-family: Raleway;
+font-size: 60px;
+font-weight: 700;
+line-height: 120%; /* 72px */
+}
+.authorsecondheading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: -30px;
+}
+.authorsecondheading_text{
+    color: #000;
+font-family: Raleway;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.authorsecondheading_subtext{
+    color: #000;
+font-family: "Roboto Flex";
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 120%; /* 21.6px */
+}
+.author_explore_button2{
+    padding: 1rem 2.5rem;
+    border-radius: 100px;
+    background-color: #001777;
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    margin-top: 20px;
+}
+.author_bottomimg{
+    position: absolute;
+    top: 248%;
+    right: 8px;
+
+}
+.form_title1 {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: Raleway;
+    text-align: center;
+    color: #001777;
+    width: 80%;
+    /* padding-bottom: 25px; */
+}
+
+@media screen and (max-width: 768px) {
+    .authormain_div{
+        margin:1rem 1rem 6rem 1rem;
+    
+    }
+    .maincontentdiv{
+        display: flex;
+        flex-direction:column;
+        justify-content: flex-start;
+        gap: 30px;
+        align-items: flex-start;
+    }
+.authorimg{
+    display: none;
+}
+.authorimg_mob{
+    display: block;
+    position: relative;
+
+}
+.authorheading_text{
+color: #FFF;
+font-family: Raleway;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 48px */
+position: absolute;
+left: 20px;
+top: 52%;
+}
+.authorsecondheading{
+    position: absolute;
+    left: 25px;
+    top: 64%;
+  
+}
+.authorsecondheading_text{
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.contact_us_form_container1 .form_title1{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    font-size: 24px;
+}
+.author_bottomimg{
+   display: none;
+
+}
+.contact_us_section2{
+    border-radius: 17.639px 17.639px 0px 0px;
+background: linear-gradient(180deg, #EEE0CB -12.18%, rgba(238, 224, 203, 0.00) 63.72%);
+}
+
+
+}

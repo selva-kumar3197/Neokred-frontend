@@ -1,0 +1,251 @@
+.parent_privacy_div {
+  margin: 1rem 5rem 10rem 5rem;
+  position: relative;
+}
+.bottom_arrow_cancelpolicy {
+  display: none;
+}
+.privacy_policy_div {
+  border-radius: 40px;
+  background: #eee0cb;
+}
+.privacy_mob_banner {
+  display: none;
+}
+.bottom_arrow_cancelpolicy_desktop {
+  display: block;
+  position: absolute;
+  right: -80px;
+}
+.bottom_arrow_terms_desktop {
+  display: block;
+  position: absolute;
+  right: -80px;
+}
+.bottom_arrow_terms_mob {
+  display: none;
+}
+.privacy_policy_text {
+  color: #001777;
+  font-family: Raleway;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  padding: 60px;
+}
+
+.privacy-policy-desc {
+  color: #000;
+  font-family: "Roboto Flex";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+}
+.privacy-policy-desc2 {
+  color: #000;
+  font-family: "Roboto Flex";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+}
+.privacy-policy-desc3 {
+  color: #000;
+  font-family: "Roboto Flex";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+  text-decoration: underline;
+}
+
+.cancel-bullet li {
+  color: #000;
+  font-family: "Roboto Flex";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+  padding-bottom: 20px;
+}
+.term-conditions-desc4 {
+  color: #000;
+  font-family: "Roboto Flex";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+}
+.term-conditions-desc5 {
+  color: #000;
+  font-family: "Roboto Flex";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 130%;
+}
+.terms-bullet-alpha li {
+  list-style-type: lower-alpha;
+}
+.terms-bullet-roman li {
+  list-style-type: lower-roman;
+}
+.terms-bullet-desc li {
+  list-style-type: disc;
+}
+.terms-bullet-desc li {
+  list-style-type: decimal;
+}
+.dataexplorar-maindiv {
+  border: 1px solid #000;
+}
+.dataexplorar-innerdiv {
+  display: flex;
+  justify-content: center;
+}
+.dataexplorar-leftside {
+  color: #000;
+  font-family: "Roboto Flex";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%; /* 28.6px */
+  padding: 43px 100px;
+}
+.dataexplorar-rightside {
+  color: #000;
+  font-family: "Roboto Flex";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%; /* 28.6px */
+  padding: 43px 100px;
+}
+.dataexporte-innerdiv {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 80px;
+  gap: 30px;
+}
+.compotent-innerdiv {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 80px;
+  gap: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  .parent_privacy_div {
+    margin: 1rem 1rem 6rem 1rem;
+    position: relative;
+  }
+  .bottom_arrow_cancelpolicy {
+    position: absolute;
+    bottom: -100px;
+    right: -15px;
+    display: block;
+  }
+  .bottom_arrow_terms_desktop {
+    display: none;
+  }
+  .bottom_arrow_cancelpolicy_desktop {
+    display: none;
+  }
+  .bottom_arrow_terms_mob {
+    display: block;
+    position: absolute;
+    right: -16px;
+  }
+  .bottom_arrow_terms_mob_img {
+    height: 157px;
+    width: 191px;
+  }
+
+  .privacy_policy_div {
+    display: none;
+  }
+  .privacy_mob_banner {
+    display: block;
+    background-image: url("https://neokred.s3.ap-south-1.amazonaws.com/image/1708598078256_%281%29.png.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+  }
+  .privacy_policy_mob_text {
+    color: #001777;
+    font-family: Raleway;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    padding: 25px;
+  }
+  .privacy-policy-desc {
+    color: #000;
+    font-family: "Roboto Flex";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+  }
+  .privacy-policy-desc2 {
+    color: #000;
+    font-family: "Roboto Flex";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+  }
+  .privacy-policy-desc3 {
+    color: #000;
+    font-family: "Roboto Flex";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    text-decoration: underline;
+  }
+
+  .cancel-bullet li {
+    color: #000;
+    font-family: "Roboto Flex";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    padding-bottom: 20px;
+  }
+  .dataexplorar-leftside {
+    color: #000;
+    font-family: "Roboto Flex";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%; /* 28.6px */
+    padding: 0px 10px;
+  }
+  .dataexplorar-rightside {
+    color: #000;
+    font-family: "Roboto Flex";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%; /* 28.6px */
+    padding: 0px 10px;
+  }
+  .compotent-innerdiv {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 30px;
+    gap: 25px;
+  }
+  .dataexporte-innerdiv {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    gap: 5px;
+  }
+}
